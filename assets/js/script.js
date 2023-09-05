@@ -31,3 +31,4 @@ let typed = new Typed('.multiple-text', {
   backDelay: 4000,
   loop: true
 })
+
