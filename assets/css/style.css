@@ -33,6 +33,12 @@
     right: 20rem;
 }
 
+#features .card {
+    transition: all 0.3s;
+}
+#features .card:hover {
+    transform: scale(1.05);
+}
 
 /*-----------------------------------*\
   #MEDIA QUERIES
