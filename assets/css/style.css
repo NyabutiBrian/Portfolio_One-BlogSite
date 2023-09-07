@@ -40,6 +40,13 @@
     transform: scale(1.05);
 }
 
+#topics .card {
+    transition: all 0.3s;
+}
+#topics .card:hover {
+    transform: scale(0.95);
+}
+
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
