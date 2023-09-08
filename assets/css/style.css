@@ -33,10 +33,12 @@
     right: 20rem;
 }
 
-#features .card {
+#features .card,
+#btn-back-to-top {
     transition: all 0.3s;
 }
-#features .card:hover {
+#features .card:hover,
+#btn-back-to-top:hover {
     transform: scale(1.05);
 }
 
@@ -45,6 +47,25 @@
 }
 #topics .card:hover {
     transform: scale(0.95);
+}
+
+/* CAROUSEL */
+#carouselChange .carousel-caption {
+    position: absolute;
+    top: 6rem;
+}
+
+#carouselChange img {
+    width:100%;
+    height: 400px;
+}
+
+/* BACK TO TOP */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: none;
 }
 
 /*-----------------------------------*\
@@ -70,6 +91,15 @@
     .shape-2 {
         bottom: 10rem;
         right: 55rem;
+    }
+
+    #carouselChange .carousel-caption {
+        position: absolute;
+        top: 15rem;
+    }
+    #carouselChange img {
+        width:100%;
+        height: 600px;
     }
 }
 
