@@ -165,109 +165,161 @@
                         </p>
                       </div>
                     </div>
+
+                    <div class="card d-flex blur justify-content-center shadow-lg my-sm-0 my-sm-6 mt-6 mb-5">
+                      <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">
+                        <div class="bg-gradient-info shadow-info border-radius-lg p-3">
+                          <h5 class="text-white text-primary mb-0">Leave a Comment</h5>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <form id="contact-form" method="POST" autocomplete="on">
+                          <div class="card-body p-0 my-3">
+                            <div class="row">
+                              <div class="input-group input-group-static mb-4">
+                                <label>Full Name</label>
+                                <input type="email" class="form-control" placeholder="I am ...">
+                              </div>
+                            </div>
+                            <div class="form-group mb-0 mt-md-0 mt-4">
+                              <div class="input-group input-group-static mb-4">
+                                <label>Message</label>
+                                <textarea name="message" class="form-control" id="message" rows="6" placeholder="I would like to ..."></textarea>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12 text-end">
+                                <button type="submit" class="btn bg-gradient-info mt-3 mb-0">Send Comment</button>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
                   </div>
                     
                     <div class="col-xl-5 col-lg-8 col-12 mx-auto">
-                        <div class="card card-plain shadow-lg mt-4 p-4">
-                            <div class="row">
-                                <div class="fw-bold">
-                                    <h4>Popular Posts</h4>
-                                    <hr class="border border-dark border-1 opacity-2">
-                                </div>
-                            </div>
-
-                            <div class="row py-2">
-                                <div class="col-sm-2 col-4">
-                                    <img class="avatar avatar-xl shadow-xl position-relative z-index-2" src="assets/images/cover.png" alt="dp" loading="lazy">
-                                </div>
-                                <div class="col-sm-10 col-8 d-flex flex-column align-items-start justify-content-center">
-                                    <h6 class="px-xl-2">Creating is a privilege but it’s also a gift</h6>
-                                    <h6 class="px-xl-2 text-xs opacity-6 text-end">5 Sep 2023 <i class="fas fa-clock text-xxs"></i> 3 mins read</h6>
-                                </div>
-                            </div>
-                            <hr class="border border-dark border-1 opacity-1">
-
-                            <div class="row py-2">
-                                <div class="col-sm-2 col-4">
-                                    <img class="avatar avatar-xl shadow-xl position-relative z-index-2" src="assets/images/cover.png" alt="dp" loading="lazy">
-                                </div>
-                                <div class="col-sm-10 col-8 d-flex flex-column align-items-start justify-content-center">
-                                    <h6 class="px-xl-2">Creating is a privilege but it’s also a gift</h6>
-                                    <h6 class="px-xl-2 text-xs opacity-6 text-end">5 Sep 2023 <i class="fas fa-clock text-xxs"></i> 3 mins read</h6>
-                                </div>
-                            </div>
-                            <hr class="border border-dark border-1 opacity-1">
-
-                            <div class="row py-2">
-                                <div class="col-sm-2 col-4">
-                                    <img class="avatar avatar-xl shadow-xl position-relative z-index-2" src="assets/images/cover.png" alt="dp" loading="lazy">
-                                </div>
-                                <div class="col-sm-10 col-8 d-flex flex-column align-items-start justify-content-center">
-                                    <h6 class="px-xl-2">Creating is a privilege but it’s also a gift</h6>
-                                    <h6 class="px-xl-2 text-xs opacity-6 text-end">5 Sep 2023 <i class="fas fa-clock text-xxs"></i> 3 mins read</h6>
-                                </div>
-                            </div>
-                            <hr class="border border-dark border-1 opacity-1">
-
+                      <div class="card card-plain shadow-lg mt-4 p-4">
+                        <div class="row">
+                          <div class="col-12">
+                            <form class="input-group">
+                              <div class="form-outline">
+                                <input type="search" id="form1" class="form-control" />
+                                <label class="form-label" for="form1">Search</label>
+                              </div>
+                              <button type="button" class="btn btn-info">
+                                <i class="fas fa-search"></i>
+                              </button>
+                            </form>
+                          </div>                    
                         </div>
-
-                        <div class="card card-plain shadow-lg mt-4 p-4">
-                            <div class="row">
-                                <div class="fw-bold">
-                                    <h4>Latest Comments</h4>
-                                    <hr class="border border-dark border-1 opacity-2">
-                                </div>
-                            </div>
-
-                            <div class="row py-2">
-                                <div class="col">
-                                    <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, obcaecati? "</p>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-2 col-4">
-                                        <img class="avatar avatar-lg shadow-xl position-relative z-index-2" src="assets/images/cover.png" alt="dp" loading="lazy">
-                                    </div>
-                                    <div class="col-sm-10 col-8 d-flex flex-column align-items-start justify-content-center">
-                                        <h6 class="px-xl-2">John Doe</h6>
-                                        <h6 class="px-xl-2 text-xs opacity-6 text-end">5 Sep 2023</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr class="border border-dark border-1 opacity-1">
-
-                            <div class="row py-2">
-                                <div class="col">
-                                    <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, obcaecati? "</p>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-2 col-4">
-                                        <img class="avatar avatar-lg shadow-xl position-relative z-index-2" src="assets/images/cover.png" alt="dp" loading="lazy">
-                                    </div>
-                                    <div class="col-sm-10 col-8 d-flex flex-column align-items-start justify-content-center">
-                                        <h6 class="px-xl-2">John Doe</h6>
-                                        <h6 class="px-xl-2 text-xs opacity-6 text-end">5 Sep 2023</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr class="border border-dark border-1 opacity-1">
-
-                            <div class="row py-2">
-                                <div class="col">
-                                    <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, obcaecati? "</p>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-2 col-4">
-                                        <img class="avatar avatar-lg shadow-xl position-relative z-index-2" src="assets/images/cover.png" alt="dp" loading="lazy">
-                                    </div>
-                                    <div class="col-sm-10 col-8 d-flex flex-column align-items-start justify-content-center">
-                                        <h6 class="px-xl-2">John Doe</h6>
-                                        <h6 class="px-xl-2 text-xs opacity-6 text-end">5 Sep 2023</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr class="border border-dark border-1 opacity-1">
-
+                      </div>
+                      <div class="card card-plain shadow-lg mt-4 p-4">
+                        <div class="row">
+                          <div class="fw-bold">
+                            <h4>Popular Posts</h4>
+                            <hr class="border border-dark border-1 opacity-2">
+                          </div>
                         </div>
+                    
+                        <div class="row py-2">
+                          <div class="col-sm-2 col-4">
+                            <img class="avatar avatar-xl shadow-xl position-relative z-index-2" src="assets/images/cover.png" alt="dp"
+                              loading="lazy">
+                          </div>
+                          <div class="col-sm-10 col-8 d-flex flex-column align-items-start justify-content-center">
+                            <h6 class="px-xl-2">Creating is a privilege but it’s also a gift</h6>
+                            <h6 class="px-xl-2 text-xs opacity-6 text-end">5 Sep 2023 <i class="fas fa-clock text-xxs"></i> 3 mins read</h6>
+                          </div>
+                        </div>
+                        <hr class="border border-dark border-1 opacity-1">
+                    
+                        <div class="row py-2">
+                          <div class="col-sm-2 col-4">
+                            <img class="avatar avatar-xl shadow-xl position-relative z-index-2" src="assets/images/cover.png" alt="dp"
+                              loading="lazy">
+                          </div>
+                          <div class="col-sm-10 col-8 d-flex flex-column align-items-start justify-content-center">
+                            <h6 class="px-xl-2">Creating is a privilege but it’s also a gift</h6>
+                            <h6 class="px-xl-2 text-xs opacity-6 text-end">5 Sep 2023 <i class="fas fa-clock text-xxs"></i> 3 mins read</h6>
+                          </div>
+                        </div>
+                        <hr class="border border-dark border-1 opacity-1">
+                    
+                        <div class="row py-2">
+                          <div class="col-sm-2 col-4">
+                            <img class="avatar avatar-xl shadow-xl position-relative z-index-2" src="assets/images/cover.png" alt="dp"
+                              loading="lazy">
+                          </div>
+                          <div class="col-sm-10 col-8 d-flex flex-column align-items-start justify-content-center">
+                            <h6 class="px-xl-2">Creating is a privilege but it’s also a gift</h6>
+                            <h6 class="px-xl-2 text-xs opacity-6 text-end">5 Sep 2023 <i class="fas fa-clock text-xxs"></i> 3 mins read</h6>
+                          </div>
+                        </div>
+                        <hr class="border border-dark border-1 opacity-1">
+                    
+                      </div>
+                    
+                      <div class="card card-plain shadow-lg mt-4 p-4">
+                        <div class="row">
+                          <div class="fw-bold">
+                            <h4>Latest Comments</h4>
+                            <hr class="border border-dark border-1 opacity-2">
+                          </div>
+                        </div>
+                    
+                        <div class="row py-2">
+                          <div class="col">
+                            <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, obcaecati? "</p>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-2 col-4">
+                              <img class="avatar avatar-lg shadow-xl position-relative z-index-2" src="assets/images/cover.png" alt="dp"
+                                loading="lazy">
+                            </div>
+                            <div class="col-sm-10 col-8 d-flex flex-column align-items-start justify-content-center">
+                              <h6 class="px-xl-2">John Doe</h6>
+                              <h6 class="px-xl-2 text-xs opacity-6 text-end">5 Sep 2023</h6>
+                            </div>
+                          </div>
+                        </div>
+                        <hr class="border border-dark border-1 opacity-1">
+                    
+                        <div class="row py-2">
+                          <div class="col">
+                            <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, obcaecati? "</p>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-2 col-4">
+                              <img class="avatar avatar-lg shadow-xl position-relative z-index-2" src="assets/images/cover.png" alt="dp"
+                                loading="lazy">
+                            </div>
+                            <div class="col-sm-10 col-8 d-flex flex-column align-items-start justify-content-center">
+                              <h6 class="px-xl-2">John Doe</h6>
+                              <h6 class="px-xl-2 text-xs opacity-6 text-end">5 Sep 2023</h6>
+                            </div>
+                          </div>
+                        </div>
+                        <hr class="border border-dark border-1 opacity-1">
+                    
+                        <div class="row py-2">
+                          <div class="col">
+                            <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, obcaecati? "</p>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-2 col-4">
+                              <img class="avatar avatar-lg shadow-xl position-relative z-index-2" src="assets/images/cover.png" alt="dp"
+                                loading="lazy">
+                            </div>
+                            <div class="col-sm-10 col-8 d-flex flex-column align-items-start justify-content-center">
+                              <h6 class="px-xl-2">John Doe</h6>
+                              <h6 class="px-xl-2 text-xs opacity-6 text-end">5 Sep 2023</h6>
+                            </div>
+                          </div>
+                        </div>
+                        <hr class="border border-dark border-1 opacity-1">
+                    
+                      </div>
                     </div>
                 </div>
             </div>
