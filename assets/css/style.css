@@ -1,14 +1,9 @@
-#btn-back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-}
-
+/* NAVBAR HOVER */
 #navigation ul li a:hover {
     color: #7b809a;
 }
 
+/* SVG SHAPES */
 .shape {
     position: absolute;
     z-index: 100;
@@ -33,20 +28,34 @@
     right: 20rem;
 }
 
+/* ZOOM TRANSITIONS ALL PAGES */
 #features .card,
-#btn-back-to-top {
+#btn-back-to-top,
+#recents .card img,
+#content .card img,
+#categoryposts .card img {
     transition: all 0.3s;
 }
 #features .card:hover,
-#btn-back-to-top:hover {
+#btn-back-to-top:hover,
+#recents .card img:hover,
+#content .card img:hover,
+#categoryposts .card img:hover {
     transform: scale(1.05);
 }
 
-#topics .card {
+#categories .card,
+#contact img {
     transition: all 0.3s;
 }
-#topics .card:hover {
+#categories .card:hover,
+#contact img:hover {
     transform: scale(0.95);
+}
+
+#recents a:hover,
+#categoryposts a:hover {
+    color:#1A73E8;
 }
 
 /* CAROUSEL */
@@ -73,6 +82,7 @@
 \*-----------------------------------*/
 
 @media (min-width: 576px){
+    /* SVG SHAPES */
     .shape-1 {
         top: 6rem;
         right: 4rem;
@@ -84,6 +94,7 @@
 }
 
 @media (min-width: 767px){
+    /* SVG SHAPES */
     .shape-1 {
         top: 6rem;
         right: 4rem;
@@ -93,6 +104,7 @@
         right: 55rem;
     }
 
+    /* CAROUSEL */
     #carouselChange .carousel-caption {
         position: absolute;
         top: 15rem;
@@ -104,6 +116,7 @@
 }
 
 @media (min-width: 992px){
+    /* SVG SHAPES */
     .shape-1 {
         top: 6rem;
         right: 4rem;
@@ -115,6 +128,7 @@
 }
 
 @media (min-width: 1400px){
+    /* SVG SHAPES */
     .shape-1 {
         top: 6rem;
         right: 4rem;
