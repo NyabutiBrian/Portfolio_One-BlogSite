@@ -1,4 +1,4 @@
-## MomanyiSavvy: What to Know!!
+## MomanyiSavvy: What to Know!!!
 
 Welcome to MomanyiSavvy, your ultimate destination for cutting-edge technology insights and discoveries. 
 In this captivating blog website, we delve into the ever-evolving world of technology, 
